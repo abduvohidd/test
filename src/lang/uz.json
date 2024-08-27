@@ -1,0 +1,410 @@
+{
+  "sidebar": {
+    "dashboard": "Boshqaruv paneli",
+    "investor": "Sarmoyador ilovasi",
+    "investorList": "Sarmoyadorlar ro'yxati",
+    "investorBilling": "Sarmoyadorlar stantsiyalari",
+    "user": "Foydalanuvchi ilovasi",
+    "stationsList": "Stantsiyalar ro'yxati",
+    "socketsList": "Ulagichlar ro`yxati",
+    "nearbyList": "Yaqin joylar ro'yxati",
+    "userList": "Foydalanuvchilar ro'yxati",
+    "problems": "Xabar berilgan muammolar ro'yxati",
+    "refundList": "Qaytarishlar ro'yxati",
+    "rewiewsList": "Tavsiflar ro'yxati",
+    "car": "Mashinalar",
+    "model": "Mashina modellari ro'yxati",
+    "make": "Mashina markalari ro'yxati",
+    "privacy": "Maxfiylik siyosati",
+    "agreement": "Investor uchun shartnoma",
+    "userTerm": "Foydalanuvchi shartlari",
+    "stations": "Stantsiyalar",
+    "adminList": "Adminlar ro'yxati"
+  },
+
+  "auth": {
+    "logout": "Chiqish",
+    "password": "Parol",
+    "login": "Tizimga kirish"
+  },
+  "dashboard": {
+    "general": "Umumiy statistika",
+    "panel": "Boshqaruv paneli",
+    "from": "Dan",
+    "to": "Gacha",
+    "electricity": "Elektr energiyasi uchun to'langan pul miqdori",
+    "sold": "KVt sotilgan miqdori",
+    "allCommissions": "Komissiyalar miqdori",
+    "investorNumber": "Investorlar soni",
+    "vehicles": "Zaryadlangan elektromobillar umumiy soni",
+    "revenue": "Yaratilgan daromad miqdori",
+    "year": "O'tgan Yilgi",
+    "monthly": "Oylik",
+    "thisWeek": "Bu Hafta",
+    "lastWeek": "O'tkan Hafta",
+    "today": "Bugun",
+    "chargingStation": "Umumiy zaryadlash stansiyalari soni",
+    "dc": "DC zaryadlovchilar",
+    "ac": "AC zaryadlovchilar",
+    "numberDc": "DC zaryadlovchilar soni",
+    "numberAc": "AC zaryadlovchilar soni",
+    "chargingCapacity": "KVt quvvatiga ko'ra zaryadlovchilar soni",
+    "rent": "Stansiyalar arenda narxi",
+    "map": "Karta",
+    "pulseTable": "Volt auto jadvali",
+    "more": "Ko'proq",
+    "name": "Ism",
+    "address": "Manzil",
+    "status": "Amaliyot",
+    "sockets": "Soketlar soni",
+    "capacity": "Soketlarning sig'imi",
+    "type": "Soketlar turi",
+    "profit": "Umumiy foyda",
+    "commission": "Har bir komissiya narxi",
+    "rentCost": "Ijara narxi",
+    "yesterday": "kecha",
+    "weekly": "Haftalik"
+  },
+
+  "buttons": {
+    "save": "Saqlash",
+    "cancel": "Bekor qilish",
+    "delete": "O'chirish",
+    "edit": "Tahrirlash",
+    "view": "Ko'rish",
+    "reset": "Parolni tiklash"
+  },
+
+  "investorList": {
+    "investorTitle": "Sarmoyadorlar haqida ma`lumot",
+    "investorParagraph": "Sarmoyador dasturi-sarmoyadorlar haqida ma`lumot",
+    "investorCreate": "Sarmoyador yaratish",
+    "investorSearch": "Ism bo'yicha qidiruv",
+    "investorTable": {
+      "name": "Ism",
+      "phone": "Telefon Raqami",
+      "email": "Pochta",
+      "organization": "Tashkilot",
+      "balance": "Balanslar",
+      "count": "Stansiya Soni",
+      "actions": "Amaliyotlar",
+      "action": "Amaliyot"
+    }
+  },
+  "investorBilling": {
+    "billingTitle": "Investor hisobi",
+    "billingTab": "Hisob-kitob",
+    "historyTab": "Tarix",
+    "search": "Investor bo'yicha qidiruv ",
+    "billingTable": {
+      "name": "Sarmoyadorning To'liq Ismi",
+      "profit": "Umumiy Foyda",
+      "balance": "Joriy Balanslar",
+      "status": "Holat",
+      "pay": {
+        "payTitle": "To'lash",
+        "payModalTitle": "Toʻlov toʻlovi",
+        "payModalLabel": "Hisob-kitob miqdori",
+        "payPlaceholder": "Hisob-kitob miqdori"
+      }
+    },
+    "historyTable": {
+      "name": "Sarmoyadorning To'liq Ismi",
+      "phone": "Telefon Raqami",
+      "payment": "To'lov Miqdori",
+      "email": "Pochta",
+      "status": "Holat"
+    }
+  },
+
+  "stationsList": {
+    "stationTitle": "Stantsiyalar ro'yxati",
+    "stationSearch": "Ism bo'yicha qidirish",
+    "stationStatusTab": {
+      "statusTitle": "Holat",
+      "statusAll": "Hammasi",
+      "statusWork": "Ishlamoqda",
+      "statusOutWork": "Ishdan chiqgan"
+    },
+    "stationInvestorTab": {
+      "investorTitle": "Sarmoyador filteri",
+      "investorAll": "Hammasi"
+    },
+    "stationPowerTab": {
+      "power": "Kuchlanish",
+      "powerAll": "Hammasi"
+    },
+    "stationCreate": "Stantsiya yaratish",
+
+    "stationTable": {
+      "stationName": "Stantsiya Nomi",
+      "stationLocation": "Sarmoyador Ismi",
+      "location": "Joylashuvi",
+      "power": "Kuchlanish",
+      "rating": "Reyting",
+      "status": "Holat",
+      "action": "Amaliyot"
+    }
+  },
+  "socketsList": {
+    "socketTitle": "Ulagichlar ro`yxati",
+    "socketSearch": "Ulagichlar bo'yicha qidirish",
+    "socketCreate": "Ulagich yaratish",
+
+    "socketTable": {
+      "icon": "Ikonka",
+      "type": "Tur Nomi",
+      "photo": "Rasm",
+      "description": "Tavsifi",
+      "action": "Amaliyotlar"
+    },
+    "socketEdit": "Ulagichni tahrirlash",
+    "socketView": "Ulagichni ko'rish",
+    "deleteTitle": "Ulagichni o'chirish",
+    "deleteDescription": "Ulagichni o'chirmoqchimisiz?",
+    "inputName": "Iltimos, ulagich nomini kiriting",
+    "inputDescription": "Iltimos, ulagich tavsifini kiriting"
+  },
+
+  "nearbyList": {
+    "nearbyTitle": "Yaqin joylar ro'yxati",
+    "nearbySearch": "Joylar nomini qidirish",
+    "nearbyCreate": "Yangi yaratish",
+
+    "nearbyTable": {
+      "icon": "Ikonka",
+      "place": "Joylar Nomi",
+      "actions": "Amaliyotlar",
+      "action": "Amaliyot"
+    },
+
+    "nearbyCreateTitle": "Yaqin-atrofda joy yaratish",
+    "nearbyEditTitle": "Yaqin atrofdagi joyni tahrirlash ",
+    "nearbyViewTitle": "Yaqin atrofdagi  joyni ko'rish",
+    "inputName": "Joy nomini kiriting"
+  },
+
+  "usersList": {
+    "userTitle": "Foydalanuvchilar haqida ma'lumotlar",
+    "userSearch": "Ism bo'yicha qidiruv",
+    "userCreate": "Yangi yaratish",
+
+    "textFiler": {
+      "all": "Hammasi",
+      "a": "A-Z",
+      "z": "Z-A"
+    },
+
+    "userTable": {
+      "id": "To'lov Miqdori",
+      "name": "Ism",
+      "phone": "Telefon Raqami",
+      "total": "Umumiy",
+      "actions": "Amaliyotlar",
+      "action": "Amaliyot"
+    },
+
+    "resetPassword": {
+      "resetTitle": "Parolni tiklash",
+      "passwordLabel": "Parol",
+      "passwordPlaceholder": "Yangi parolni kiriting",
+      "confirmLabel": "Tasdiqlang",
+      "confirmPlaceholder": "Yangi parolni tasdiqlang"
+    },
+
+    "information": {
+      "userTitle": "Foydalanuvchilar ma'lumotlari",
+      "fullName": "To'liq ism",
+      "lastName": "Familiya",
+      "cardName": "Karta nomi",
+      "email": "Elektron pochta",
+      "topStation": "Yuqori stantsiya",
+      "chargingHistory": "Zaryadlash tarixi",
+      "amountSums": "To'lovning umumiy summasi",
+      "countSums": "To'lovning umumiy miqdori",
+      "paymentHistory": "To'lov tarixi",
+      "notPayment": "To'lov tarixi mavjud emas"
+    },
+
+    "userDelete": {
+      "deleteTitle": "Foydalanuvchini o'chirish",
+      "deleteParagraph": "Bu foydalanuvchini oʻchirib tashlamoqchimisiz?"
+    },
+
+    "userEdit": {
+      "editTitle": "Foydalanuvchini tahrirlash",
+      "firstName": "Ism",
+      "lastName": "Familiya",
+      "phone": "Telefon raqami",
+      "email": "Elektron pochta",
+      "date": "Tug'ilgan kun sanasi"
+    },
+
+    "notify": "Foydalanuvchi malumotlari o'zgartirildi!"
+  },
+
+  "problemsList": {
+    "problemTitle": "Muammolar",
+    "problemSearch": "Foydalanuvchi nomi bo'yicha qidirish'",
+
+    "statusFiler": {
+      "status": "Holat",
+      "all": "Hammasi",
+      "actives": "Faollar",
+      "resolved": "Hal qilindi",
+      "resolve": "Hal qilingan"
+    },
+
+    "problemTable": {
+      "user": "Foydalanuvchi",
+      "info": "Muammo Matni",
+      "name": "EVC Nomi",
+      "date": "Xabar Sanisi va Vaqti",
+      "status": "Holat"
+    }
+  },
+
+  "refundsList": {
+    "refundTitle": "Qaytarishlar ro'yxati",
+    "refundSearch": "To'liq ism bo'yicha qidiring",
+
+    "statusFiler": {
+      "all": "Hammasi",
+      "paid": "To'langan",
+      "notPaid": "To'lanmagan"
+    },
+
+    "refundTable": {
+      "name": "To'liq Ism",
+      "phone": "Telefon Raqami",
+      "refund": "Qaytarilgan Summa",
+      "date": "Yaratilish Sanasi va Vaqti",
+      "card": "Karta Raqami",
+      "status": "Holat",
+      "change": "Statusmi O'zgartirish"
+    }
+  },
+  "reviewsList": {
+    "reviewTitle": "Ko'rib chiqishlar ro'yxati",
+    "reviewSearch": "Ism bo'yicha qidirish",
+
+    "reviewTable": {
+      "customer": "Haridor",
+      "phone": "Telefon Raqami",
+      "comment": "Kommentariya",
+      "date": "Amaliyotlar"
+    }
+  },
+
+  "carsModels": {
+    "carTitle": "Avtomobil modellari",
+    "carSearch": "Marka bo'yicha qidiruv ",
+    "carCreate": "Avtomobil modelini yaratish",
+
+    "carTable": {
+      "brand": "Marka",
+      "name": "Nomi",
+      "price": "Narxi",
+      "actions": "Amaliyotlar",
+      "action": "Amaliyot"
+    },
+
+    "deleteTitle": "Avtomobil modelini o'chirish",
+    "deleteDescription": "Mashinani o'chirmoqchimisiz?",
+    "carEdit": "Avtomobil modelini tahrirlash",
+    "rules": {
+      "name": "Iltimos, mashina nomini kiriting",
+      "brand": "Please change car model "
+    }
+  },
+  "carsMakes": {
+    "carTitle": "Avtomobil markasi",
+    "carSearch": "Marka bo'yicha qidiruv",
+    "carCreate": "Avtomobil markasini yaratish",
+
+    "carTable": {
+      "name": "Nomi",
+      "logo": "Logotip",
+      "actions": "Amaliyotlar",
+      "action": "Amaliyot"
+    },
+
+    "deleteTitle": "Avtomobil markasini o'chirish",
+    "deleteDescription": "Mashinani o'chirmoqchimisiz?",
+    "name": "Iltimos, mashina nomini kiriting",
+    "carEdit": "Avtomobil markasini tahrirlash"
+  },
+
+  "agreements": {
+    "agreementTitle": "Maxfiylik siyosati",
+    "agreementSearch": "Shartnoma bo'yicha qidirish",
+    "agreementCreate": "Maxfiylik siyosatini yarating",
+    "privacyEdit": "Policy Edit",
+    "error": "Bu tilda maxfiylik siyosati allaqachon mavjud.",
+    "deletePolicy": "Maxfiylik siyosatini o'chirish",
+    "deleteDescription": "Haqiqatdan ham privacy policy o'chirishni hohlaysizmi?",
+    "agreementTable": {
+      "title": "Sarlavha",
+      "language": "Til",
+      "actions": "Amaliyotlar",
+      "action": "Amaliyot",
+      "content": "Tarkib"
+    },
+    "rules": {
+      "title": "Iltimos, maxfiylik siyosati nomini kiriting",
+      "language": "Iltimos, maxfiylik tilini o'zgartiring",
+      "content": "Iltimos, maxfiylik siyosati mazmunini kiriting"
+    }
+  },
+  "terms": {
+    "termTitle": "Maxfiylik",
+    "termSearch": "Nomi bo'yicha qidiruv",
+    "termCreate": "Maxfiylik yaratish",
+    "language": "Til",
+    "termEdit": "Foydalanuvchi muddatni tahrirlash",
+    "deleteTitle": "Foydalanuvchi atamasini o'chirish",
+    "deleteDescription": "Haqiqatdan ham user term o'chirishni hohlaysizmi?",
+    "error": "Bu til bilan ishlash shartlari allaqachon mavjud.",
+    "uzbek": "Uzbekcha",
+    "russian": "Ruscha",
+    "english": "Inglizcha",
+
+    "termTable": {
+      "title": "Sarlavha",
+      "language": "Til",
+      "content": "Tarkib",
+      "actions": "Amaliyotlar",
+      "action": "Amaliyot"
+    },
+
+    "rules": {
+      "title": "Iltimos, foydalanuvchi nomini kiriting",
+      "language": "Iltimos, foydalanuvchi atamasi tilini o'zgartiring",
+      "content": "Iltimos, foydalanuvchi atamasi tarkibini kiriting"
+    }
+  },
+
+  "faq": {
+    "title": "Tez-tez so'raladigan savollar",
+    "faqCreate": {
+      "title": "FAQ yaratish",
+      "question": "Savol",
+      "answer": "Javob",
+      "language": "Til"
+    },
+    "editTitle": "Tezkor savolni tahrirlash",
+    "deleteTitle": "Tez-tez soʻraladigan savolni oʻchirish",
+    "deleteDescription": "Haqiqatdan ham FAQ o'chirishni hohlaysizmi?",
+    "eng": "ENG",
+    "ru": "RU",
+    "uz": "UZ",
+
+    "rules": {
+      "question": "Iltimos, savol matnini kiriting",
+      "answer": "Iltimos, javob matnini kiriting",
+      "language": "Faoliyat zonasini tanlang"
+    },
+    "message": "Bu muloqot oynasini yopmoqchimisiz?",
+    "delete": "Tez-tez soʻraladigan savollarni oʻchirish"
+  }
+}

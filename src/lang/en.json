@@ -1,0 +1,409 @@
+{
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "investor": "Investor App",
+    "investorList": "Investor List",
+    "investorBilling": "Investor stations",
+    "user": "User App",
+    "stationsList": "Stations List",
+    "socketsList": "Sockets List",
+    "nearbyList": "Nearby Places List",
+    "userList": "Users List",
+    "problems": "Reported Problems",
+    "refundList": "Refund List",
+    "rewiewsList": "Rewiews List",
+    "car": "Cars",
+    "make": "Cars Brand List",
+    "model": "Cars Model List",
+    "privacy": "Privacy Policy",
+    "agreement": "Agreement For Investor",
+    "userTerm": "User Term and Conditions",
+    "stations": "Stations",
+    "adminList": "Admin List"
+  },
+
+  "auth": {
+    "logout": "Logout",
+    "password": "Password",
+    "login": "Log In"
+  },
+  "dashboard": {
+    "general": "General statistics",
+    "panel": "Control panel",
+    "from": "From",
+    "to": "To",
+    "electricity": "Amount of money paid for electricity",
+    "sold": "Amount of KW sold",
+    "allCommissions": "Amount of commissions in sums",
+    "investorNumber": "Investors",
+    "vehicles": "Total number of charged electric vehicles",
+    "revenue": "Amount of Revenue generated",
+    "year": "Last Year",
+    "monthly": "Monthly",
+    "thisWeek": "This Week",
+    "lastWeek": "Last Week",
+    "today": "Today",
+    "chargingStation": "Total quantity of Charging stations",
+    "dc": "DC chargers",
+    "ac": "AC chargers",
+    "numberDc": "Number of DC chargers",
+    "numberAc": "Number of AC chargers",
+    "chargingCapacity": "Number of Chargers by KW capacity",
+    "rent": "Price of stations' rent",
+    "map": "Map",
+    "pulseTable": "Volt Auto table",
+    "more": "More",
+    "name": "Name",
+    "address": "Address",
+    "status": "Status",
+    "sockets": "Number of Sockets",
+    "capacity": "Sockets Capacity",
+    "type": "Sockets Type",
+    "profit": "Total Profit",
+    "commission": "Each commission price",
+    "rentCost": "Rent Cost",
+    "yesterday": "Yesterday",
+    "weekly": "Weekly"
+  },
+
+  "buttons": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "reset": "Reset the Password"
+  },
+
+  "investorList": {
+    "investorTitle": "Information of Investors",
+    "investorParagraph": "Investor app-information of Investors",
+    "investorCreate": "Create Investor",
+    "investorSearch": "Search name",
+    "investorTable": {
+      "name": "Name",
+      "phone": "Phone Number",
+      "email": "Email",
+      "organization": "Organization",
+      "balance": "Balance",
+      "count": "Station Count",
+      "actions": "Actions",
+      "action": "Action"
+    }
+  },
+  "investorBilling": {
+    "billingTitle": "Investor Billing",
+    "billingTab": "Billing",
+    "historyTab": "History",
+    "search": "Search Investor",
+    "billingTable": {
+      "name": "Investor's Full Name",
+      "profit": "Total Profit",
+      "balance": "Current Balance",
+      "status": "Status",
+      "pay": {
+        "payTitle": "Pay",
+        "payModalTitle": "Pay Billing",
+        "payModalLabel": "Billing amount",
+        "payPlaceholder": "Billing amount"
+      }
+    },
+    "historyTable": {
+      "name": "Investor's Full Name",
+      "phone": "Phone Number",
+      "payment": "Payment Amount",
+      "email": "Email",
+      "status": "Status"
+    }
+  },
+
+  "stationsList": {
+    "stationTitle": "Stations list",
+    "stationSearch": "Search by name",
+    "stationStatusTab": {
+      "statusTitle": "Status",
+      "statusAll": "All",
+      "statusWork": "Working",
+      "statusOutWork": "Out of work"
+    },
+    "stationInvestorTab": {
+      "investorTitle": "Investor Filter",
+      "investorAll": "All"
+    },
+    "stationPowerTab": {
+      "power": "Power",
+      "powerAll": "All"
+    },
+    "stationCreate": "Create station",
+
+    "stationTable": {
+      "stationName": "Station Name",
+      "stationLocation": "Investor's Name ",
+      "location": "Location",
+      "power": "Power",
+      "rating": "Rating",
+      "status": "Status",
+      "action": "Action"
+    }
+  },
+  "socketsList": {
+    "socketTitle": "Connector list",
+    "socketSearch": "Search connector",
+    "socketCreate": "Create connector",
+
+    "socketTable": {
+      "icon": "Icon",
+      "type": "Type Name",
+      "photo": "Photo",
+      "description": "Description",
+      "action": "Action"
+    },
+
+    "socketEdit": "Edit connector",
+    "socketView": "View connector",
+    "deleteTitle": "Delete connector",
+    "deleteDescription": "Do you want to turn off the connector?",
+    "inputName": "Please input connector name",
+    "inputDescription": "Please input connector description"
+  },
+
+  "nearbyList": {
+    "nearbyTitle": "Nearby places list",
+    "nearbySearch": "Search place name",
+    "nearbyCreate": "Create new",
+
+    "nearbyTable": {
+      "icon": "Icon",
+      "place": "Place Name",
+      "actions": "Actions",
+      "action": "Action"
+    },
+
+    "nearbyCreateTitle": "Nearby Create Place",
+    "nearbyEditTitle": "Nearby Edit Place",
+    "nearbyViewTitle": "Nearby View Place",
+    "inputName": "Place input place name"
+  },
+
+  "usersList": {
+    "userTitle": "Users List",
+    "userSearch": "Search user by name",
+    "userCreate": "Create new user",
+
+    "textFiler": {
+      "all": "All",
+      "a": "A-Z",
+      "z": "Z-A"
+    },
+
+    "userTable": {
+      "id": "Charged Amount",
+      "name": "Name",
+      "phone": "Phone number",
+      "total": "Balance",
+      "actions": "Actions",
+      "action": "Action"
+    },
+
+    "resetPassword": {
+      "resetTitle": "Reset Password",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Enter new password",
+      "confirmLabel": "Confirm",
+      "confirmPlaceholder": "Confirm new password"
+    },
+
+    "information": {
+      "userTitle": "Information of Users",
+      "fullName": "Full Name",
+      "lastName": "Last Name",
+      "cardName": "Card name",
+      "email": "Email",
+      "topStation": "Top station",
+      "chargingHistory": "Charging history",
+      "amountSums": "Total charging amount sums",
+      "countSums": "Total charging count sums",
+      "paymentHistory": "Payment history",
+      "notPayment": "No payment history available"
+    },
+
+    "userDelete": {
+      "deleteTitle": "User Delete",
+      "deleteParagraph": "Are you sure you want to delete this user?"
+    },
+
+    "userEdit": {
+      "editTitle": "Edit user",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "phone": "Phone Number",
+      "email": "Email",
+      "date": "Birth date"
+    },
+
+    "notify": "User information has been changed!"
+  },
+
+  "problemsList": {
+    "problemTitle": "Problems",
+    "problemSearch": "Search by username",
+
+    "statusFiler": {
+      "status": "Status",
+      "all": "All",
+      "actives": "Actives",
+      "resolved": "Resolved",
+      "resolve": "Resolve"
+    },
+
+    "problemTable": {
+      "user": "User",
+      "info": "Problem Info",
+      "name": "EVC Name",
+      "date": "Message Date and Time",
+      "status": "status"
+    }
+  },
+
+  "refundsList": {
+    "refundTitle": "Refunds list",
+    "refundSearch": "Search by full name",
+
+    "statusFiler": {
+      "all": "All",
+      "paid": "Paid",
+      "notPaid": "Not Paid"
+    },
+
+    "refundTable": {
+      "name": "Full Name",
+      "phone": "Phone Number",
+      "refund": "Refund Amount",
+      "date": "Creation Date and Time",
+      "card": "Card Number",
+      "status": "Status",
+      "change": "Change Status"
+    }
+  },
+  "reviewsList": {
+    "reviewTitle": "Reviews list",
+    "reviewSearch": "Search by name",
+
+    "reviewTable": {
+      "customer": "Customer",
+      "phone": "Phone Number",
+      "comment": "Comment",
+      "date": "Date"
+    }
+  },
+
+  "carsModels": {
+    "carTitle": "Car Models",
+    "carSearch": "Search by brand",
+    "carCreate": "Create car model",
+
+    "carTable": {
+      "brand": "Brand",
+      "name": "Name",
+      "price": "Price",
+      "actions": "Actions",
+      "action": "Action"
+    },
+    "deleteTitle": "Delete car model",
+    "deleteDescription": "Do you want to turn off the machine?",
+    "carEdit": "Edit car model",
+    "rules": {
+      "name": "Please enter the car name",
+      "brand": "Please change car model"
+    }
+  },
+  "carsMakes": {
+    "carTitle": "Car brand",
+    "carSearch": "Search by brand",
+    "carCreate": "Create car brand",
+
+    "carTable": {
+      "name": "Name",
+      "logo": "Logo",
+      "actions": "Actions",
+      "action": "Action"
+    },
+
+    "deleteTitle": "Delete car brand",
+    "deleteDescription": "Are you sure you want to turn off the machine?",
+    "name": "Please enter the car name",
+    "carEdit": "Edit car brand"
+  },
+
+  "agreements": {
+    "agreementTitle": "Privacy Policy",
+    "agreementSearch": "Search by agreement",
+    "agreementCreate": "Create Privacy Policy",
+
+    "privacyEdit": "Policy Edit",
+    "deletePolicy": "Privacy policy delete",
+    "deleteDescription": "Are you sure you want to delete the privacy policy?",
+    "error": "Privacy policy with this language already exists.",
+    "agreementTable": {
+      "title": "Title",
+      "language": "Language",
+      "actions": "Actions",
+      "action": "Action",
+      "content": "Content"
+    },
+    "rules": {
+      "title": "Please enter a privacy polacy name",
+      "language": "Please change a privacy polacy language",
+      "content": "Please enter a privacy policy content"
+    }
+  },
+  "terms": {
+    "termTitle": "User Term and Conditions",
+    "termSearch": "Search by name",
+    "termCreate": "Create user term",
+    "language": "Language",
+    "termEdit": "Term Edit",
+    "deleteTitle": "User term delete",
+    "deleteDescription": "Are you sure you want to delete your username?",
+    "error": "Terms and conditions with this language already exists.",
+    "uzbek": "Uzbek",
+    "russian": "Russian",
+    "english": "English",
+
+    "termTable": {
+      "title": "Title",
+      "language": "Language",
+      "content": "Content",
+      "actions": "Actions",
+      "action": "Action"
+    },
+    "rules": {
+      "title": "Please enter a user term name",
+      "language": "Please change a user term language",
+      "content": "Please enter a user term content"
+    }
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "faqCreate": {
+      "title": "Create an FAQ",
+      "question": "Question",
+      "answer": "Answer",
+      "language": "Language"
+    },
+    "editTitle": "Edit a quick question",
+    "deleteTitle": "Delete a frequently asked question",
+    "deleteDescription": "Are you sure you want to delete the FAQ?",
+    "eng": "ENG",
+    "ru": "RU",
+    "uz": "UZ",
+
+    "rules": {
+      "question": "Please enter the text of the question",
+      "answer": "Please enter your reply text",
+      "language": "Select the area of ​​activity"
+    },
+    "message": "Do you want to close this dialog?",
+    "delete": "Delete FAQ"
+  }
+}
